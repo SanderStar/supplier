@@ -47,7 +47,7 @@
         "build:cf": "ui5 build preload --clean-dest --config ui5-deploy.yaml --include-task=generateManifestBundle generateCachebusterInfo",
         "build:mta": "rimraf resources mta_archives && mbt build",
         "undeploy": "cf undeploy nl-gasunie-supplier-supplier --delete-services --delete-service-keys",
-        "clean-test": "npx rimraf coverage/",        
+        "clean-test": "npx rimraf coverage/",
         "test": "npm run clean-test && karma start"
     },
     "ui5": {

@@ -80,7 +80,8 @@ sap.ui.define([
 	QUnit.test("I should test the View1 controller has getAufnr", (assert) => {
 		var oAppController = new Controller();
 		sinon.stub(oAppController, "getAufnr").returns('1000216');
-		assert.ok(oAppController.getAufnr() === '1000216');
+        const aufNr = oAppController.getAufnr();
+        assert.ok(aufNr === '1000216');
 	});
 
 	QUnit.test("I should have a tasklist", (assert) => {

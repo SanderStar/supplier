@@ -17,7 +17,10 @@ module.exports = function(config) {
         ]
       },
   
-      browsers: ["ChromeHeadless"]
+      browsers: ["ChromiumHeadless"],
   
+      singleRun: false,
+      autoWatch: true      
     });
+
   };

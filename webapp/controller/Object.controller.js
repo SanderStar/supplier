@@ -29,6 +29,12 @@ sap.ui.define([
             this.getRouter().getRoute("object").attachPatternMatched(this._onObjectMatched, this);
             this.setModel(oViewModel, "objectView");
         },
+
+        // TODO added for unit testing
+		getAufnr: function() {
+			return this.getView().byId("aufnr").getValue();
+		},
+        
         /* =========================================================== */
         /* event handlers                                              */
         /* =========================================================== */

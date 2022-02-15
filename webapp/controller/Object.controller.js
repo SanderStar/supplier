@@ -30,7 +30,7 @@ sap.ui.define([
             this.setModel(oViewModel, "objectView");
         },
 
-        // TODO added for unit testing
+        // TODO added for unit test
 		getAufnr: function() {
 			return this.getView().byId("aufnr").getValue();
 		},

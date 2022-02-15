@@ -44,4 +44,8 @@ The karma runner is added with the below webpage. It will also add sinon. With s
 See https://www.npmjs.com/package/karma-ui5?activeTab=readme for more details
 
 
+```
+    npm run-script test
+```
 
+See coverage folder for index.html with results.

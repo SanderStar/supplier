@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 98.0.4758.82 (Windows 10)" package="" timestamp="2022-02-15T07:43:32" id="0" hostname="DESKTOP-H3R709H" tests="17" errors="0" failures="6" time="0.027">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/98.0.4758.82 Safari/537.36"/>
+  </properties>
+  <testcase name="Number unit Should round down a 3 digit number" time="0.002" classname="Number unit"/>
+  <testcase name="Number unit Should round up a 3 digit number" time="0.001" classname="Number unit"/>
+  <testcase name="Number unit Should round a negative number" time="0" classname="Number unit"/>
+  <testcase name="Number unit Should round an empty string" time="0" classname="Number unit"/>
+  <testcase name="Number unit Should round a zero" time="0" classname="Number unit"/>
+  <testcase name="createDeviceModel Should initialize a device model for desktop" time="0.002" classname="createDeviceModel">
+    <failure type="">Died on test #1     at Object.test (node_modules/qunit/qunit/qunit.js:2900:5)
+    at webapp/test/unit/model/models.js:26:8
+    at https://sapui5.hana.ondemand.com/resources/sap-ui-core.js:65:1013: this.stub is not a function
+TypeError: this.stub is not a function
+    at Object.isPhoneTestCase (webapp/test/unit/model/models.js:17:8)
+    at Object.&lt;anonymous&gt; (webapp/test/unit/model/models.js:27:19)
+    at runTest (node_modules/qunit/qunit/qunit.js:2411:35)
+    at Test.run (node_modules/qunit/qunit/qunit.js:2394:9)
+    at node_modules/qunit/qunit/qunit.js:2645:16
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+    <failure type="">afterEach failed on Should initialize a device model for desktop: Cannot read properties of undefined (reading 'destroy')
+TypeError: Cannot read properties of undefined (reading 'destroy')
+    at Object.afterEach (webapp/test/unit/model/models.js:11:22)
+    at callHook (node_modules/qunit/qunit/qunit.js:2429:28)
+    at runHook (node_modules/qunit/qunit/qunit.js:2457:11)
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+  </testcase>
+  <testcase name="createDeviceModel Should initialize a device model for phone" time="0.001" classname="createDeviceModel">
+    <failure type="">Died on test #1     at Object.test (node_modules/qunit/qunit/qunit.js:2900:5)
+    at webapp/test/unit/model/models.js:30:8
+    at https://sapui5.hana.ondemand.com/resources/sap-ui-core.js:65:1013: this.stub is not a function
+TypeError: this.stub is not a function
+    at Object.isPhoneTestCase (webapp/test/unit/model/models.js:17:8)
+    at Object.&lt;anonymous&gt; (webapp/test/unit/model/models.js:31:19)
+    at runTest (node_modules/qunit/qunit/qunit.js:2411:35)
+    at Test.run (node_modules/qunit/qunit/qunit.js:2394:9)
+    at node_modules/qunit/qunit/qunit.js:2645:16
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+    <failure type="">afterEach failed on Should initialize a device model for phone: Cannot read properties of undefined (reading 'destroy')
+TypeError: Cannot read properties of undefined (reading 'destroy')
+    at Object.afterEach (webapp/test/unit/model/models.js:11:22)
+    at callHook (node_modules/qunit/qunit/qunit.js:2429:28)
+    at runHook (node_modules/qunit/qunit/qunit.js:2457:11)
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+  </testcase>
+  <testcase name="createDeviceModel Should initialize a device model for non touch devices" time="0" classname="createDeviceModel">
+    <failure type="">Died on test #1     at Object.test (node_modules/qunit/qunit/qunit.js:2900:5)
+    at webapp/test/unit/model/models.js:45:8
+    at https://sapui5.hana.ondemand.com/resources/sap-ui-core.js:65:1013: this.stub is not a function
+TypeError: this.stub is not a function
+    at Object.isTouchTestCase (webapp/test/unit/model/models.js:36:8)
+    at Object.&lt;anonymous&gt; (webapp/test/unit/model/models.js:46:19)
+    at runTest (node_modules/qunit/qunit/qunit.js:2411:35)
+    at Test.run (node_modules/qunit/qunit/qunit.js:2394:9)
+    at node_modules/qunit/qunit/qunit.js:2645:16
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+    <failure type="">afterEach failed on Should initialize a device model for non touch devices: Cannot read properties of undefined (reading 'destroy')
+TypeError: Cannot read properties of undefined (reading 'destroy')
+    at Object.afterEach (webapp/test/unit/model/models.js:11:22)
+    at callHook (node_modules/qunit/qunit/qunit.js:2429:28)
+    at runHook (node_modules/qunit/qunit/qunit.js:2457:11)
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+  </testcase>
+  <testcase name="createDeviceModel Should initialize a device model for touch devices" time="0" classname="createDeviceModel">
+    <failure type="">Died on test #1     at Object.test (node_modules/qunit/qunit/qunit.js:2900:5)
+    at webapp/test/unit/model/models.js:49:8
+    at https://sapui5.hana.ondemand.com/resources/sap-ui-core.js:65:1013: this.stub is not a function
+TypeError: this.stub is not a function
+    at Object.isTouchTestCase (webapp/test/unit/model/models.js:36:8)
+    at Object.&lt;anonymous&gt; (webapp/test/unit/model/models.js:50:19)
+    at runTest (node_modules/qunit/qunit/qunit.js:2411:35)
+    at Test.run (node_modules/qunit/qunit/qunit.js:2394:9)
+    at node_modules/qunit/qunit/qunit.js:2645:16
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+    <failure type="">afterEach failed on Should initialize a device model for touch devices: Cannot read properties of undefined (reading 'destroy')
+TypeError: Cannot read properties of undefined (reading 'destroy')
+    at Object.afterEach (webapp/test/unit/model/models.js:11:22)
+    at callHook (node_modules/qunit/qunit/qunit.js:2429:28)
+    at runHook (node_modules/qunit/qunit/qunit.js:2457:11)
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+  </testcase>
+  <testcase name="createDeviceModel The binding mode of the device model should be one way" time="0" classname="createDeviceModel"/>
+  <testcase name="Object Controller I should test the Object controller" time="0.011" classname="Object Controller"/>
+  <testcase name="Object Controller I should test the Object controller has onInit" time="0.001" classname="Object Controller"/>
+  <testcase name="Object Controller I should test the Object controller onNavBack" time="0.001" classname="Object Controller">
+    <failure type="">failed, expected argument to be truthy, was: undefined
+Expected: true
+Actual: undefined
+    at Object.&lt;anonymous&gt; (webapp/test/unit/controller/Object.controller.js:47:10)
+    at runTest (node_modules/qunit/qunit/qunit.js:2411:35)
+    at Test.run (node_modules/qunit/qunit/qunit.js:2394:9)
+    at node_modules/qunit/qunit/qunit.js:2645:16
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+  </testcase>
+  <testcase name="Object Controller It should check onNavBack() is available" time="0.005" classname="Object Controller">
+    <failure type="">Died on test #1     at Object.test (node_modules/qunit/qunit/qunit.js:2900:5)
+    at webapp/test/unit/controller/Object.controller.js:50:11
+    at https://sapui5.hana.ondemand.com/resources/sap-ui-core.js:65:1013: Cannot read properties of undefined (reading 'navTo')
+TypeError: Cannot read properties of undefined (reading 'navTo')
+    at f.onNavBack (webapp/controller/Object.controller.js:55:17 &lt;- webapp/controller/Object.controller.js:15:87)
+    at Function.invoke (node_modules/sinon/pkg/sinon.js:2375:47)
+    at f.onNavBack (node_modules/sinon/pkg/sinon.js:2680:26)
+    at Object.&lt;anonymous&gt; (webapp/test/unit/controller/Object.controller.js:56:24)
+    at runTest (node_modules/qunit/qunit/qunit.js:2411:35)
+    at Test.run (node_modules/qunit/qunit/qunit.js:2394:9)
+    at node_modules/qunit/qunit/qunit.js:2645:16
+    at processTaskQueue (node_modules/qunit/qunit/qunit.js:1966:26)
+    at node_modules/qunit/qunit/qunit.js:1970:13
+
+</failure>
+  </testcase>
+  <testcase name="Object Controller It should check onNavBack() calling the getRouter.navTo()" time="0.002" classname="Object Controller"/>
+  <testcase name="Object Controller I should test the View1 controller has getAufnr" time="0.001" classname="Object Controller"/>
+  <testcase name="Object Controller I should have a tasklist" time="0" classname="Object Controller"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
